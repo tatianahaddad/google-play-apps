@@ -41,11 +41,6 @@ app.get('/apps', (req, res) => {
   res.json(results)
 })
 
-app.listen(9000, () => {
-  console.log('Listening on 9000')
-})
 
-
-
-
+module.exports = app
 
